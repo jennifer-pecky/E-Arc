@@ -8,12 +8,12 @@
   
   header {
     width: 100%;
-    background-color: var(--dark-blue);
+    background-color: rgba(0, 0, 0, 0.297);
     color: #fff;
   
     .header {
       width: 100%;
-      height: 8rem;
+      height: 5rem;
       max-width: 1000px;
       margin: 0 auto;
       padding: 1rem;
@@ -24,11 +24,16 @@
     }
   
     .logo a h2 {
-      width: 25%;
-      color: #fff;
+      // width: 5px;
+      color: #000;
+      font-size: 2.5rem;
+      font-weight: 700;
       cursor: pointer;
       span {
-        color: orangered;
+        // color: orangered;
+        background: -webkit-linear-gradient(white, black, white, black, white );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     }
   

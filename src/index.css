@@ -3,8 +3,9 @@
 
 :root {
   --font-family: 'Oswald';
-  --dark-blue: #0a1930;
-  --light-blue: #1f93ff;
+  /* --dark-blue: #0a1930;
+  --light-blue: #1f93ff; */
+  --bg-color: #E9EBEF;
 
   --color-white: #fff;
   --color-dark: #333;
@@ -33,6 +34,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
 }
 
 section {
